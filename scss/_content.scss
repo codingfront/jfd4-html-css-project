@@ -1,0 +1,23 @@
+.content{
+    padding: variable.$base-margin;
+    border: 2px solid grey;
+}
+
+.content::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.col{
+    float: left;
+    padding-left: variable.$base-margin;
+    padding-right: variable.$base-margin;
+    &-left{
+        width: 70%;
+    }
+    &-right{
+        width: 30%;
+    }
+}
+
