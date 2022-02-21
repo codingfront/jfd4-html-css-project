@@ -1,4 +1,4 @@
-# junior front end development project-html-css
+# junior front end development 
 Developers:
 Mehrad Sehat
 Mohammad Hossein Kerdegari
