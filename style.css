@@ -8,7 +8,7 @@ body {
   font-size: 17px;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 22px;
-  background-color: #f1f1f1;
+  background-color: #f2f2f2;
 }
 
 a {
@@ -56,4 +56,33 @@ a {
 }
 .heading p {
   margin-top: 15px;
+}
+
+.banner {
+  position: relative;
+}
+.banner img {
+  width: 100%;
+  display: block;
+}
+.banner .banner-text {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  color: white;
+  transform: translate(20%, -50%);
+}
+.banner .banner-text h2 {
+  line-height: 40px;
+  font-size: 35px;
+}
+.banner .banner-text h2 span {
+  font-size: 17px;
+}
+.banner .banner-text a {
+  color: black;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 15px;
+  font-size: 14px;
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
