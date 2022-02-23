@@ -22,5 +22,42 @@
             margin-bottom: variable.$base-margin;
         }
     }
+    &__footer{
+        padding: 10px 0 ;
+    }
+
+    &__replies,&__like{
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    &__replies{
+        float: right;
+        background-color:variable.$base-color ;
+        color: white;
+        
+        span{
+            background-color: white;
+            color: variable.$base-color;
+            padding: 2px 7px;
+            margin-left:3px;
+            display: inline-block;
+           
+        }
+    }
+
+    &__like{
+        background-color:white;
+        color: variable.$base-color;
+        border: 1px solid lighten(variable.$base-color, 30%);
+        padding: 10px 15px;
+        &:hover{
+            border-color:lighten(variable.$base-color,15%)
+        }
+    }
+
+    
+
+   
 
 }
