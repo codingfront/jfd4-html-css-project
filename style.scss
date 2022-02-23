@@ -13,6 +13,7 @@ body {
   background-color: variable.$base-background-color;
 }
 
+@import "scss/font-face";
 @import "scss/general";
 @import "scss/header";
 @import "scss/banner";
