@@ -15,6 +15,11 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
 .container {
   width: 1200px;
   margin: auto;
@@ -114,4 +119,27 @@ a {
 }
 .col-right {
   width: 30%;
+}
+
+.post-item {
+  padding: 15px;
+  background-color: white;
+}
+.post-item__header {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.post-item__header h2 {
+  text-transform: uppercase;
+  font-size: 19px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.post-item__header p {
+  margin: 0;
+}
+.post-item__content img {
+  width: 100%;
+  display: block;
+  margin-bottom: 15px;
 }/*# sourceMappingURL=style.css.map */
