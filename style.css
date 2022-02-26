@@ -180,4 +180,29 @@ h6 {
 }
 .post-item__like:hover {
   border-color: #262626;
+}
+
+.profile-section {
+  position: relative;
+}
+.profile-section img {
+  display: block;
+  width: 100%;
+}
+.profile-section__content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-size: 13px;
+}
+.profile-section__content h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+.profile-section__content p {
+  margin-bottom: 0;
 }/*# sourceMappingURL=style.css.map */
